@@ -1,0 +1,27 @@
+[Credits]
+This information was authored by:
+Alen Vuletic.
+How to use the CSS calc() function.
+
+[Description]
+
+CSS calc() is a function used for simple calculations to determine CSS property values right in CSS.
+The calc() function allows mathematical expressions with addition (+), subtraction (-), 
+multiplication (*), and division (/) to be used as component values.
+
+[Advantages]
+
+The most useful feature of this function is the ability to mix units. 
+For example, you can multiply pixels with percentage.
+What if I’m already using math functions with a preprocessor? 
+If you’re using preprocessor math functions then it’s time to switch to native CSS math 
+because it’s more powerful and you can simply do more things with it.
+
+[Syntax and a few things to note]
+
+.item{
+  width: calc(100% - 60px);
+}
+
+More information:
+https://slicejack.com/how-to-use-css-calc-function/
