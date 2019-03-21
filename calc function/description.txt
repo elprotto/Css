@@ -23,5 +23,8 @@ because it’s more powerful and you can simply do more things with it.
   width: calc(100% - 60px);
 }
 
-More information:
+[More information]
 https://slicejack.com/how-to-use-css-calc-function/
+
+[Personal notes]
+If you are using preprocessors like SASS, note that it doesn't mix units in calculations.
